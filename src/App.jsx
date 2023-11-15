@@ -16,7 +16,7 @@ export default function App() {
     
     <NavAppBar/>
     <Routes>
-      <Route path='/'
+      <Route path='engine4u'
         element={
           <React.Suspense fallback={<Loading />}>
             <LazyHome />
